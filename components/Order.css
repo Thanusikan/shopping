@@ -1,0 +1,110 @@
+.order-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .order-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #444;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .quantity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .quantity-container label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .total-price {
+    font-size: 22px;
+    color: #ff5722;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pay-button:hover {
+    background-color: #45a049;
+  }
+  
+  .place-order-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .place-order-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .anime-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .anime-image {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

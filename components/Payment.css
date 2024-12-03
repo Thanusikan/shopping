@@ -1,0 +1,98 @@
+.payment-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.payment-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-description {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.total-price {
+  text-align: center;
+  font-size: 18px;
+  color: #2c7;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.payment-option {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.payment-option img {
+  max-width: 50px;
+  margin-bottom: 5px;
+}
+
+.payment-option p {
+  font-size: 14px;
+  color: #666;
+}
+
+.payment-option:hover {
+  transform: scale(1.1);
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.visa-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.visa-info img {
+  max-width: 50px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
