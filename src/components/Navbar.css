@@ -1,0 +1,81 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00509e; /* Dark blue background */
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Highlight color on hover */
+}
+
+/* Navbar Icons */
+.nav-icon {
+  font-size: 20px;
+}
+
+/* Order Now Button */
+.order-now-btn .btn {
+  background-color: #ffcc00; /* Yellow background */
+  color: #00509e; /* Blue text */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.order-now-btn .btn:hover {
+  background-color: #e6b800; /* Darker yellow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide links on small screens */
+  }
+
+  .order-now-btn {
+    display: none; /* Hide Order Now button on small screens */
+  }
+}
