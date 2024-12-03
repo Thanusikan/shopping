@@ -100,7 +100,7 @@ function Menu() {
       </div>
       <div className="center1">
         <h2 style={{ color: "#ff9800" }}>Customer</h2>
-        <span style={{ fontSize: "40px" }}>🤝</span> {/* Handshake emoji */}
+        <span style={{ fontSize: "40px" }}> </span> {/* Handshake emoji */}
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellat illo sequi recusandae accusantium quod natus, aliquam necessitatibus modi esse deleniti officia corporis expedita aperiam at fuga cupiditate eaque laborum!</p>
       </div>
       <div className="center1">
